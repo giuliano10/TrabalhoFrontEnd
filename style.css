@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+header {
+    height: 100px;
+    background: rgb(222, 221, 221);
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(44, 34, 189);
+}
+
+header h1{
+    margin: 10px;
+}
+
+figure {
+    position: relative;
+    overflow: hidden;
+}
+
+figure figcaption {
+    position: absolute;
+    bottom: 4px;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background: #08198273;
+}
+
+figure figcaption p{
+    margin-left: 10px;
+    color: white;
+}
+
+section{
+    align-items: center;
+    margin: 5px;
+}
+
+aside{
+    margin: 10px;
+}
+aside summary{
+    background-color: rgb(77, 76, 76);
+    padding: 5px;
+    color: white;
+
+}
+
+
+
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+}
